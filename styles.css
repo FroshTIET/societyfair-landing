@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+@font-face{
+    src : url('./Assets/BebasNeue-Regular.ttf');
+    font-family: 'Bebas';
+}
+
+
+main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url('https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-9/88429767_2448938128540735_6557045589194833920_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=rCA27AjyTXkAX9tVqrq&_nc_ht=scontent.fccu1-1.fna&oh=fea1f476cb5d9941d9065303a787cae2&oe=5F8B8F54');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+body{
+    /* position: relative; */
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(11, 5, 32, 0.767);
+}
+
+iframe{
+    height: 315px;
+    width: 100%;
+}
+
+.welcome{
+    font-family: 'Bebas';
+    font-size: 4rem;
+}
+
+.welcome-2{
+    font-family: 'Bebas';
+    font-size: 3rem;
+}
+
+.guide{
+    /* width: 100%; */
+    position: relative;
+    height: 100vh;
+    padding: 0;
+    margin: 0; 
+    background-attachment: fixed !important;
+    background: url('https://scontent.fdel28-1.fna.fbcdn.net/v/t1.0-9/89431470_2448938155207399_1042608980460830720_o.jpg?_nc_cat=110&_nc_sid=cdbe9c&_nc_ohc=Jj6OEUSvUQsAX_QZVXf&_nc_oc=AQlz5-C5g1G4Mlhb_es454YXGU5I4BmINJd36BQSAEH71U54TVgK453uESH756Ki64A&_nc_ht=scontent.fdel28-1.fna&oh=14879761c7ad13a4d5b3f81c77e6f7b5&oe=5F88BF09');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 991px){
+    iframe{
+        height: 300px;
+    }
+    main{
+        height: auto;
+    }
+    .guide{
+        height: auto;
+    }
+}
